@@ -1,0 +1,30 @@
+{
+  "name": "atomic-write-stream",
+  "version": "0.0.0",
+  "description": "stream to a file atomically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quarterto/atomic-write-stream.git"
+  },
+  "keywords": [
+    "atomic",
+    "filesystem",
+    "stream"
+  ],
+  "author": "Matt Brenna <mwrbrennan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/atomic-write-stream/issues"
+  },
+  "homepage": "https://github.com/quarterto/atomic-write-stream",
+  "dependencies": {
+    "mktemp": "^0.3.4"
+  },
+  "devDependencies": {
+    "LiveScript": "^1.2.0"
+  }
+}
