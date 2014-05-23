@@ -6,6 +6,14 @@ ever tried `fs.createReadStream('a.txt').pipe(fs.createWriteStream('a.txt'))` an
 
 works by redirecting your writes to a unique temporary file then `rename`ing it to the target
 
+## how do `atomic-write-stream`
+
+```javascript
+var fs = require('fs')
+  , atomicWriteStream = require('atomic-write-stream')
+
+fs.createReadStream('a.txt').pipe(atomicWriteStream('a.txt', optionsWotGetPassedToFs))```
+
 ## cheers
 
 inspired by [atomic-write](https://github.com/nightfly19/atomic-write) except streaming because what is this 2011?
