@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/quarterto/atomic-write-stream",
   "dependencies": {
-    "mktemp": "^0.3.4"
+    "mktemp": "^0.3.4",
+    "through": "^2.3.4"
   },
   "devDependencies": {
     "LiveScript": "^1.2.0"
