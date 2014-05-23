@@ -12,7 +12,8 @@ works by redirecting your writes to a unique temporary file then `rename`ing it 
 var fs = require('fs')
   , atomicWriteStream = require('atomic-write-stream')
 
-fs.createReadStream('a.txt').pipe(atomicWriteStream('a.txt', optionsWotGetPassedToFs))```
+fs.createReadStream('a.txt').pipe(atomicWriteStream('a.txt', optionsWotGetPassedToFs))
+```
 
 ## cheers
 
